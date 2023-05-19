@@ -1,0 +1,356 @@
+.wrapper {
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 100%;
+overflow: hidden;
+/* width: 1112px; */
+height: auto;
+
+/* Pure White */
+
+background: #FFFFFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+.container {
+/* Container */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 1112px;
+height: 503px;
+
+/* Scalably Blue/50 */
+
+background: #FFEEFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.content {
+/* Content */
+
+
+width: 1112px;
+height: 503px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.sidebar {
+/* Side TabBar */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 0px 15px;
+
+/* position: absolute; */
+width: 1112px;
+height: 539px;
+left: 0px;
+top: 0px;
+
+/* Grey/10 */
+
+background: #FFFFFF;
+/* Scalably Blue/50 */
+
+border: 1px solid #FFEEFF;
+border-radius: 12px;
+}
+.frame_167 {
+/* Frame 167 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 24px;
+gap: 16px;
+
+width: 1112px;
+height: 76px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame_158 {
+/* Frame 158 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 200px;
+height: 28px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame_158_text {
+/* 購読しているハブ一覧 */
+
+
+width: 200px;
+height: 28px;
+
+/* H3/Bold */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+/* Grey/800 */
+
+color: #212121;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.devider {
+/* Devider */
+
+
+width: 91.3%;
+height: 0px;
+
+/* Grey/200 */
+
+border: 1px solid #F5F5F5;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame_167_text {
+/* あなたが購読しているハブの一覧です。 */
+
+
+width: 253px;
+height: 16px;
+
+/* H5/Bold */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+/* Grey/600 */
+
+color: #757575;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.frame_105 {
+/* Frame 105 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 10px 10px;
+gap: 24px;
+
+width: 1112px;
+height: 78px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame_173 {
+/* Frame 173 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 1092px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.information {
+/* Information */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 1112px;
+height: 312px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame_637 {
+/* Frame 637 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1112px;
+height: 312px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.input {
+    /* Input */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 16px;
+gap: 8px;
+
+width: 257px;
+height: 48px;
+
+/* Grey/50 */
+
+background: #FAFAFA;
+/* Scalably Blue/50 */
+
+border: 1px solid #FFEEFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame_121 {
+    /* Frame 121 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 1112px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}

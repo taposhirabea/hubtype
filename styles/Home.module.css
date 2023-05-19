@@ -1,13 +1,14 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  float: left;
+  width: calc(100% - 280px);
+height: 100%;
+overflow: hidden;
+padding: 24px;
+background: #F0EFE8;
+border-top-left-radius: 15px;
 }
 
-.description {
+.description {  
   display: inherit;
   justify-content: inherit;
   align-items: inherit;

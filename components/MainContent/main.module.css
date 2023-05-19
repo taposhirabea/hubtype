@@ -1,0 +1,298 @@
+/* @media (min-width: 992px) {
+    .box{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 1170px) {
+    .box {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  } */
+
+.box {
+    /* width: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0px 24px 24px 24px;
+    height: 100%;
+    /* gap: 2rem 1.5rem; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* padding: .5rem; */
+    /* grid-template-columns: auto auto auto auto; */
+}
+
+.frame_111 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.frame442 {
+    /* Frame 442 */
+
+    /* display: grid; */
+    /* gap: 24px; */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 120px;
+gap: 24px;
+
+
+/* width: 100vw;
+height: 2249px; */
+
+/* left: 304px;
+top: 100px; */
+}
+
+.breadcrumb {
+    /* 👉 Breadcrumb */
+
+
+width: 100%;
+height: 40px;
+
+/* White */
+
+background: #FFFFFF;
+border-radius: 12px;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.group_156 {
+    /* Group 156 */
+/* position: absolute; */
+width: 1112px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+}
+
+.frame_156 {
+    /* Frame 156 */
+/* display: flex;
+flex-direction: row;
+align-items: center; */
+display: grid;
+align-items: center;
+/* padding: 0px; */
+padding: 13px 1000px 13px 12px;
+/* margin: 13px 1016px 13px 12px; */
+/* gap: 8px; */
+
+/* position: absolute; */
+width: 100%;
+height:auto;
+/* left: 12px;
+top: 13px; */
+
+}
+.text {
+    /* ハブ管理ページ */
+width: 84px;
+height: 14px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+/* Grey/800 */
+
+color: #212121;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame_439 {
+/* Frame 439 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+/* padding: 24px; */
+/* gap: 24px; */
+
+width: 100%;
+height: auto;
+/* height: 100%; */
+
+/* Pure White */
+
+background: #FFFFFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.group_158 {
+/* Group 158 */
+
+
+width: 100vw;
+height: 52px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+margin: 1rem;
+}
+.frame_text1 {
+/* あなたが管理中、管理チームメンバーとなっているハブ一覧です。 */
+
+
+/* position: absolute; */
+width: 420px;
+height: 16px;
+/* left: 24px;
+top: 60px; */
+top: 100px;
+/* H5/Bold */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+margin-top: 8px;
+/* Grey/600 */
+
+color: #757575;
+}
+.frame_text2{
+/* ハブ一覧 */
+
+
+/* position: absolute; */
+width: 80px;
+height: 28px;
+/* left: 24px;
+top: 24px; */
+top: 77px;
+/* H3/Bold */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+/* Grey/800 */
+
+color: #212121;
+}
+.frame_174 {
+    /* Frame 174 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 20px 0px 0px;
+
+width: 100%;
+height: auto;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame_441 {
+/* Frame 441 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 77px 0px;
+gap: 8px;
+
+width: 248px;
+height: 208px;
+
+/* Scalably Blue/200 */
+
+border: 1px solid #B9BDFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.icon {
+/* plus */
+
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.add_text {
+/* 新規作成 */
+
+
+width: 56px;
+height: 16px;
+
+/* H5/Bold */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Scalably Blue/500 */
+
+color: #7079E0;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.newsec {
+    background: red;
+    display: block;
+}

@@ -1,0 +1,196 @@
+.rectangle {
+
+/* position: absolute; */
+float: left;
+width: 280px;
+height: 1560px;
+left: 0px;
+top: 72px;
+
+/* Pure White */
+
+background: #FFFFFF;
+}
+.group_155 {
+    /* Group 155 */
+
+
+position: absolute;
+width: 232px;
+height: 108px;
+/* left: 24px;
+top: 88px; */
+padding: 16px 24px 1436px 24px;
+}
+
+.frame_429 {
+    /* Frame 429 */
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 232px;
+height: 108px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame_423 {
+    /* Frame 423 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 232px;
+height: 108px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.sidebar {
+    /* Sidebar */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 232px;
+height: 108px;
+left: 0;
+/* left: 24px;
+top: 88px; */
+}
+
+.list1 {
+    /* List */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 16px;
+gap: 12px;
+
+width: 232px;
+height: 52px;
+
+/* Scalably Blue/100 | 非推奨 */
+
+background: #CDDBFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.list2 {
+    /* List */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 16px;
+gap: 12px;
+
+width: 232px;
+height: 52px;
+
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.text1 {
+/* Sample page */
+
+
+width: 172px;
+height: 20px;
+
+/* Body-Md/Regular */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* Scalably Blue/800 */
+
+color: #36449B;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.text2 {
+/* UI Element */
+
+
+width: 156px;
+height: 20px;
+
+/* Body-Md/Regular */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Grey/500 */
+
+color: #616161;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
